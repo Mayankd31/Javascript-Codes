@@ -37,3 +37,30 @@ console.log(typeof myFunction);
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Memory
+
+// Stack (Primitive) => If we using stack memory and whenever we declare a variable we get a copy of that variable in stack memory , Heap (Non-Primitive) => In heap memory we work on original value or data
+
+
+let myName=  "mayankdhosriya"
+
+let myHomeName = myName
+myHomeName = "manku"
+
+console.log(myName);
+console.log(myHomeName);
+
+
+let userOne = {
+    email: "user123@gmail.com",
+    upi: "abc@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mayank@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
