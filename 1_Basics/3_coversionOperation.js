@@ -46,7 +46,7 @@ let score6 = "mayank"
 // undefined => NaN
 // "mayank" => NaN
 
-let isLoggedIn = "mayank"
+let isLoggedIn = "1"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
@@ -89,8 +89,8 @@ let str3 = str1 + str2
 // console.log(1 + 2 + "2");
 
 
-// console.log(+true);
-// console.log(+"");
+console.log(+true);
+console.log(+"");
 
 let gameCounter = 100
 ++gameCounter;

@@ -13,9 +13,9 @@ let num;
 
 const id = Symbol("123")
 const anotherId = Symbol("123")
-console.log(id);
-console.log(anotherId);
-console.log(id==anotherId);
+// console.log(id);
+// console.log(anotherId);
+// console.log(id==anotherId);
 
 const bigNumber = 67868768768768686868686n
 
@@ -30,11 +30,38 @@ let myObj = {
 }
 
 let myFunction = function(){
-    console.log("Hello Mayank");
+    // console.log("Hello Mayank");
 }
 
-console.log(typeof myFunction);
-console.log(typeof anotherId);
+// console.log(typeof myFunction);
+// console.log(typeof anotherId);
+
+
+let myname = "mayank"
+let number = 30.5 
+let check = true
+let value = null
+let a;
+let largeNumber = 8321931287888787787878n
+let sign = Symbol("@")
+
+let studentObj = {
+    name:"mayank",
+    id:147
+}
+
+let lang = ["HTML","CSS","JAVASCRIPT"]
+
+let func = function(){
+    console.log("Hello everyone");
+}
+
+// console.table([typeof myname,typeof number,typeof check,typeof value,typeof a,typeof largeNumber,typeof sign,typeof studentObj,typeof lang,typeof func])
+
+
+
+
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
