@@ -35,10 +35,9 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2023,11,24)
 // let myCreatedDate = new Date(2023,11,24,7,4,6)
 // let myCreatedDate = new Date("2023-12-24")
-let myCreatedDate = new Date("12-24-2023")
+// let myCreatedDate = new Date("12-24-2023")
 
 // console.log(myCreatedDate.toLocaleString());
-
 
 let myTimeStamp = Date.now()
 
