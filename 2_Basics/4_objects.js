@@ -59,7 +59,7 @@ const users = [
 // console.log(Object.entries(tinderUser)); // it gives the output like array of array
 
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // it checks if the value is present or not and returns the output in the form of array
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // it checks if the value is present or not and returns the output in the form of boolean
 
 
 const course = {
@@ -85,7 +85,7 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-// api se ya toh hame object ke form me mil sakti hai ya phir array ke form me
+// api se values ya toh hame object ke form me mil sakti hai ya phir array ke form me
 
 // [
 //     {},
