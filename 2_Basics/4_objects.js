@@ -51,16 +51,47 @@ const users = [
 
 // console.log(users[1].email);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // it gives the output in the form of array
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); // it gives the output in the form of array
 
-console.log(Object.values(tinderUser)); // it gives the output in the form of array
+// console.log(Object.values(tinderUser)); // it gives the output in the form of array
 
-console.log(Object.entries(tinderUser)); // it gives the output like array of array
+// console.log(Object.entries(tinderUser)); // it gives the output like array of array
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // it checks if the value is present or not and returns the output in the form of array
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // it checks if the value is present or not and returns the output in the form of array
 
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+
+// syntax for accessing the object properties by object de-structure
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+// JSON => Javascript Object Notation
+// {
+//     "name": "Mayank",
+//     "courseName": "js in hindi",
+//     "price": "free"
+// }
+
+// api se ya toh hame object ke form me mil sakti hai ya phir array ke form me
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 
